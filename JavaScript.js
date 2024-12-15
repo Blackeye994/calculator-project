@@ -22,10 +22,9 @@ document.addEventListener("DOMContentLoaded", function() {
                 {
                     try{
                         console.dir(result.innerText);
-                        let value = eval(result.innerHTML);
+                        let value = eval(result.innerText);
                         console.dir(value);
-                        result.innerText = result.innerText + "" + button.innerText;
-                        result.append(value);
+                        result.innerText = value;
                     }catch(err)
                     {
                         console.log("ERROR is: ",err);
