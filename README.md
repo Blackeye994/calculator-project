@@ -18,4 +18,7 @@ Open the index.html file in any modern web browser.
 Use the calculator to perform basic arithmetic operations.
 Resize the browser window to see the responsive design in action.
 ### Demo
-You can see the calculator in action here: [Insert Live Demo Link]
+You can see the calculator in action here: 
+```bash
+ https://blackeye994.github.io/calculator-project/
+```
